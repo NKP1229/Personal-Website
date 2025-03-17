@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(227, 227, 227);
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header {
+  height: 9vh;
+  width: 100%;
+  background-color: dimgray;
+  box-shadow: 0 0 12px -2px black;
+  right: 0;
+  left: 0;
+}
+main {
+  height: 85vh;
+  width: 100%;
+}
+footer {
+  height: 6vh;
+  width: 100%;
+  background-color: dimgray;
+}
+.Name {
+  display: inline-block;
+  width: 45%;
+  padding-left: 20px;
+  margin-top: -0.7%;
+}
+.Name h1 {
+  font-size: XX-Large;
+  color: rgb(208, 208, 208);
+}
+.Links {
+  display: inline-block;
+  width: 45%;
+  text-align: right;
+}
+.Links a {
+  color: rgb(208, 208, 208);
+  text-decoration: none;
+  font-size: large;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.active {
+  color: rgb(161, 255, 161);
+  background-color: rgba(71, 41, 41, 0.5);
+  border-bottom: 1px solid #c0c0c0;
+  border-top: 1px solid #c0c0c0;
+}
