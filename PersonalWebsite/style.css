@@ -15,15 +15,21 @@ main {
   width: 80%;
   margin: 2.5vh auto;
   background-color: #c0c0c0;
+  border: 1px solid lightslategray;
 }
-main h1,
-main p {
+.statement {
   margin-top: 0;
   padding-left: 20px;
   padding-top: 15px;
   margin-right: 40%;
 }
-main h3 {
+.Profession {
+  margin-top: 0;
+  padding-left: 20px;
+  padding-top: 15px;
+  margin-right: 40%;
+}
+.quote {
   font-family: "Satisfy", cursive;
   color: snow;
   font-size: 40px;
@@ -33,7 +39,7 @@ main h3 {
   padding-top: 5%;
   margin-right: 25%;
 }
-main img {
+.profPic {
   width: 300px;
   float: right;
   margin: 20px 20px 10px 10px;
@@ -66,6 +72,7 @@ footer section img {
 .Name h1 {
   font-size: XX-Large;
   color: rgb(208, 208, 208);
+  text-shadow: 1px 1px 2px black;
 }
 .Links {
   display: inline-block;
@@ -84,4 +91,47 @@ footer section img {
   background-color: rgba(71, 41, 41, 0.5);
   border-bottom: 1px solid #c0c0c0;
   border-top: 1px solid #c0c0c0;
+}
+.title {
+  height: 10%;
+  border-top: 2px solid rgb(32, 32, 32, 0.4);
+  border-bottom: 2px solid rgb(32, 32, 32, 0.4);
+  align-content: center;
+  text-align: center;
+}
+.hobby {
+  height: 29.5%;
+  border-bottom: 2px solid rgb(32, 32, 32, 0.4);
+  align-content: center;
+}
+.hobby img {
+  width: 20%;
+  height: 80%;
+  border: 2px solid white;
+  margin-left: 10px;
+  display: inline;
+}
+.description {
+  width: 40%;
+  float: right;
+  margin-right: 20px;
+}
+.hobbyTitle {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 20%;
+  text-align: center;
+  color: rgb(196, 241, 255);
+  text-shadow: 1px 1px 2px black;
+}
+.titleFont {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+.titleFont i {
+  color: rgb(196, 241, 255);
+}
+.examples {
+  width: 25%;
+  float: right;
 }
