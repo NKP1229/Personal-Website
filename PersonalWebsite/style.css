@@ -92,8 +92,10 @@ footer section img {
   margin-left: 10px;
   margin-right: 10px;
 }
+.Links a:hover {
+  font-size: x-large;
+}
 .active {
-  color: rgb(161, 255, 161);
   background-color: rgba(71, 41, 41, 0.5);
   border-bottom: 1px solid #c0c0c0;
   border-top: 1px solid #c0c0c0;
@@ -189,9 +191,12 @@ footer section img {
   margin: 0 auto;
   width: 100%;
 }
+.form-group {
+  display: grid;
+}
 #submit {
   margin: 0 40%;
-  padding: 10px 30px;
+  padding: auto;
 }
 #contact {
   margin: 7.5% 25%;
@@ -217,4 +222,22 @@ footer section img {
   color: white;
   text-shadow: 1px 1px 1px black;
   margin: 10%;
+}
+@media screen and (max-height: 630) {
+  #contact {
+    height: 90%;
+    width: 100%;
+    align-content: center;
+    margin: 0 auto;
+  }
+  #form {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2px;
+  }
+  .form-group {
+    width: 30%;
+    display: inline-grid;
+  }
 }
