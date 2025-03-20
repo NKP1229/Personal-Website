@@ -1,5 +1,5 @@
 setTimeout(() => {
-  window.location.href = "contact.html";
+  window.location.href = "index.html";
 }, 5000);
 
 document.addEventListener("DOMContentLoaded", function () {
