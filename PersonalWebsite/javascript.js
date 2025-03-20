@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     val2 = 1,
     val3 = 1;
 
-  function changeColor() {
+  const changeColor = () => {
     if (val1 < 251) val1 += 2;
     if (val1 == 251 && val2 <= 250) val2 += 2;
     if (val2 == 251 && val3 <= 250) val3 += 2;
@@ -30,6 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     FORM.style.backgroundColor = `rgba(${val1}, ${val2}, ${val3}, 0.3)`; // Corrected property and rgba usage
     requestAnimationFrame(changeColor);
-  }
+  };
   changeColor();
 });
