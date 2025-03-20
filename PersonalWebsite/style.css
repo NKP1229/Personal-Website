@@ -45,6 +45,10 @@ main {
   float: right;
   margin: 20px 20px 10px 10px;
   border-radius: 50%;
+  filter: grayscale(1);
+}
+.profPic:hover {
+  filter: grayscale(0.25);
 }
 footer {
   height: 6vh;
@@ -180,6 +184,14 @@ footer section img {
   margin-right: 20px;
   transform: translate(0%, -15%);
 }
+#form {
+  margin: 0 auto;
+  width: 100%;
+}
+#submit {
+  margin: 0 40%;
+  padding: 10px 30px;
+}
 #contact {
   margin: 7.5% 25%;
   padding: 2% 5%;
@@ -187,19 +199,21 @@ footer section img {
   border-radius: 5%;
   background-color: rgba(222, 233, 243, 0.646);
 }
-#contact h2 {
+#contactTitle {
   text-align: center;
-  color: snow;
+  color: SNOW;
   text-shadow: 1px 1px 1px black;
-  padding: 5% 0%;
+  padding: 3% 0%;
 }
 #thankYou {
   text-align: center;
   color: white;
   text-shadow: 1px 1px 1px black;
+  margin: 5%;
 }
 #timed {
   text-align: center;
   color: white;
   text-shadow: 1px 1px 1px black;
+  margin: 10%;
 }
